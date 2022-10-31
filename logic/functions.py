@@ -52,5 +52,5 @@ def morse_code(user_input):
             pass
         else:
             coded.append("     ")
-    print (" ".join(coded))
+    return (" ".join(coded))
 

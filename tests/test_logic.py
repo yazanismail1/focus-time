@@ -1,5 +1,5 @@
 import pytest
-from morse_code.main import morse_code
+from logic.functions import morse_code
 
 def test_morse_code():
     assert morse_code("A") == ".-"
